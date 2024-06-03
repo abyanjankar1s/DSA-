@@ -39,3 +39,5 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.minStack[-1] 
+
+#this is a design problem where we design stack class that supports push, pop, top and get min. 
