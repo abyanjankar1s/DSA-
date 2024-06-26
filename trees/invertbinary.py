@@ -12,6 +12,7 @@
 #         self.left = left
 #         self.right = right
 
+#Recursive
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root:
