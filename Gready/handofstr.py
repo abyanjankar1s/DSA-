@@ -18,9 +18,9 @@ class Solution:
         count = {} 
         for n in hand:
             count[n] = 1 + count.get(n,0) 
-        
         minH = list(count.keys()) 
         heapq.heapify(minH) 
+
         while minH:
             first = minH[0] 
             for i in range(first, first+groupSize):
@@ -32,4 +32,4 @@ class Solution:
                         return False 
                     heapq.heappop(minH) 
         return True 
-        
+    
